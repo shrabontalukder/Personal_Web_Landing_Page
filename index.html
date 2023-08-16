@@ -340,7 +340,7 @@ About section End
                             <p>Fiverr Customer</p>
                         </div>
                         <div class="carousel-item client-content">
-                            <img src="assets/Images/10001.jpg" alt="" width="70px" class="rounded-circle mb-3">
+                            <img src="assets/Images/10002.jpg" alt="" width="70px" class="rounded-circle mb-3">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut labore reiciendis
                                 repellendus corrupti, placeat laudantium totam saepe. <br> Ut labore reiciendis
                                 repellendus corrupti, placeat laudantium totam saepe.</p>
@@ -354,6 +354,37 @@ About section End
                                 repellendus corrupti, placeat laudantium totam saepe.</p>
                             <h4>Alex Jhon</h4>
                             <p>Fiverr Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="counter-section">
+                <div class="container">
+                    <div class=" row ">
+                        <div class="col text-center">
+                            <i class="fa-solid fa-2x fa-people-group"></i>
+                            <p class="counter fw-bold fs-1" id="number1">850</p>
+                            <span></span>
+                            <h4>Happy Customer</h4>
+                        </div>
+                        <div class="col text-center">
+                            <i class="fa-regular fa-2x fa-thumbs-up"></i>
+                            <p class="counter fw-bold fs-1" id="number2">230</p>
+                            <span></span>
+                            <h4>Complete projects</h4>
+                        </div>
+                        <div class="col text-center">
+                            <i class="fa-solid fa-2x fa-bullhorn"></i>
+                            <p class="counter fw-bold fs-1" id="number3">9870</p>
+                            <span></span>
+                            <h4>Line Of Code</h4>
+                        </div>
+                        <div class="col text-center">
+                            <i class="fa-solid fa-2x fa-cloud-arrow-down"></i>
+                            <p class="counter fw-bold fs-1" id="number4">630</p>
+                            <span></span>
+                            <h4>File Downloads</h4>
                         </div>
                     </div>
                 </div>
@@ -398,7 +429,7 @@ About section End
                         </div>
                     </div>
                 </div>
-                <div class="form mt-5 ">
+                <div class="form mt-5 p-5">
                     <div class="d-flex gap-5 mb-3 inputs">
                         <input type="text" placeholder="Name" required>
                     <input type="email" placeholder="Email" required>
@@ -485,6 +516,51 @@ About section End
                 current[0].className = current[0].className.replace(" active", "");
                 this.className += " active";
             });
+        }
+    </script>
+
+
+    <script>
+        var customer = setInterval(projectDone, 10)
+        var project = setInterval(projects, 10)
+        var code = setInterval(codeLine, 10)
+        var download = setInterval(fileDownload, 10)
+        let count1 = 1;
+        let count2 = 1;
+        let count3 = 1;
+        let count4 = 1;
+
+        function projectDone(){
+            count1++;
+            document.querySelector("#number1").innerHTML =
+            count1;
+            if(count1 == 850){
+                clearInterval(customer)
+            }
+        }
+        function projects(){
+            count2++;
+            document.querySelector("#number2").innerHTML =
+            count2;
+            if(count2 == 230){
+                clearInterval(project)
+            }
+        }
+        function codeLine(){
+            count3++;
+            document.querySelector("#number3").innerHTML =
+            count3;
+            if(count3 == 9870){
+                clearInterval(code)
+            }
+        }
+        function fileDownload(){
+            count4++;
+            document.querySelector("#number4").innerHTML =
+            count4;
+            if(count4 == 630){
+                clearInterval(download)
+            }
         }
     </script>
 </body>
