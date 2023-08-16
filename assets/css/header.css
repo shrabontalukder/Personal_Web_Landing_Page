@@ -32,9 +32,8 @@ nav{
 .nav-link {
   margin: 10px;
   letter-spacing: 1px;
-  width: fit-content;
 }
-.nav-link:after {
+.nav-ancor:after {
   content: '';
   width: 0;
   height: 2px;
@@ -45,7 +44,7 @@ nav{
   -webkit-transition: all .5s;
   transition: all .5s;
 }
-.nav-link:hover::after{
+.nav-ancor:hover::after{
   width: 100%;
 }
 .hero {
