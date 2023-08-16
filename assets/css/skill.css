@@ -1,0 +1,27 @@
+.skill-item{
+    padding: 40px 40px;
+    box-shadow: 1px 1px 5px  gray;
+}
+.progress-design{
+    background-color: blueviolet !important;
+    
+}
+.progress-dev{
+    background-color: rgb(169, 145, 12) !important;
+}
+.progress-brand{
+    background-color: coral !important;
+}
+.progress-seo{
+    background-color: lightsteelblue !important;
+}
+
+
+@media screen and (max-width:576px) {
+    .skill-items{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+}
