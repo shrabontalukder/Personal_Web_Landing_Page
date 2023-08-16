@@ -1,13 +1,11 @@
 .client{
     margin-top: 30px;
     padding: 50px 20px;
+    overflow: hidden;
 }
 .client-content{
     text-align: center;
 }
 .Testimonials{
-    border-bottom: 2px dashed brown;
-    border-radius: 10px;
-    width: fit-content;
-    margin: auto auto;
+margin-bottom: 20px;
 }
