@@ -27,25 +27,12 @@ header {
   width: 100%;
 }
 nav{
-  background-color: rgba(22, 2, 5, 0.73);
+  background-color: white;
 }
 .nav-link {
   margin: 10px;
   letter-spacing: 1px;
-}
-.nav-ancor:after {
-  content: '';
-  width: 0;
-  height: 2px;
-  background: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-.nav-ancor:hover::after{
-  width: 100%;
+  color: black !important;
 }
 .hero {
   width: 100%;

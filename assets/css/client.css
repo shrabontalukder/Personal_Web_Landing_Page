@@ -17,3 +17,11 @@ margin-bottom: 20px;
     padding: 50px 0px;
     margin-top: 30px;
 }
+@media screen and (max-width:576px) {
+    .counter-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
