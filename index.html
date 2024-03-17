@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing Page</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaeXXoZU-qTBcUS6LALIY_BMsp-aPoNoucgA&usqp=CAU"
+        type="image/x-icon">
+    <title> Personal | Landing Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/about.css">
@@ -14,12 +18,15 @@
     <link rel="stylesheet" href="assets/css/client.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Scroll Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <section class="header">
             <nav id="navbar-example2" class="navbar  px-3 mb-3 fixed-top shadow-sm">
-                <a class="navbar-brand text-black" href="#">Logo Here</a>
+                <a class="navbar-brand text-black" href="#"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaeXXoZU-qTBcUS6LALIY_BMsp-aPoNoucgA&usqp=CAU" alt=""></a>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link text-black nav-ancor" href="#about">About</a>
@@ -64,17 +71,16 @@
         <!-- -------------------
      About section Here
 -------------------- -->
-        <div id="about" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-            class="scrollspy-example  p-3 rounded-2 pb-5" tabindex="0">
+        <div id="about" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2 pb-5" tabindex="0">
             <div class="about container">
                 <div class="row align-items-center about-detail">
-                    <div class="col-md-5">
+                    <div data-aos="fade-up" class="col-md-5">
                         <div class="about-img">
                             <img class="img-fluid" src="assets/Images/10001.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-5 ps-5 ms-5 " id="about-description">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col-md-5 ps-5 ms-5 " id="about-description">
                         <h2 class="fs-1">About Me.</h2>
                         <p class="subtitle">Front-End Web Developer</p>
                         <p class="description">I am <strong>Luhom Jaka</strong> Lorem ipsum, dolor sit amet consectetur
@@ -106,25 +112,24 @@ About section End
         <!-- -----------------
     Service Section Here
 ------------------- -->
-        <div id="service" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-            class="scrollspy-example  p-3 rounded-2 bg-body-tertiary pb-5" tabindex="0">
+        <div id="service" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2 bg-body-tertiary pb-5" tabindex="0">
             <div class="service container">
                 <h2 class="service-title text-center fs-1 fw-bold">Our Services</h2>
                 <div class="row gap-5 service-items">
-                    <div class="col service-item ">
+                    <div data-aos="fade-up" class="col service-item ">
                         <i class="fa-solid fa-desktop fa-2x "></i>
                         <h2>Web Design</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
                             odit aliquam excepturi libero.</p>
                     </div>
-                    <div class="col service-item">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="col service-item">
                         <i class="fa-solid fa-code-branch fa-2x"></i>
                         <h2>Brand</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
                             odit aliquam excepturi libero.</p>
                     </div>
-                    <div class="col service-item">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col service-item">
                         <i class="fa-solid fa-code fa-2x"></i>
                         <h2>Development</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
@@ -132,19 +137,19 @@ About section End
                     </div>
                 </div>
                 <div class="row gap-5 service-items">
-                    <div class="col service-item">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col service-item">
                         <i class="fa-brands fa-figma fa-2x"></i>
                         <h2>Creative Design</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
                             odit aliquam excepturi libero.</p>
                     </div>
-                    <div class="col service-item">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col service-item">
                         <i class="fa-solid fa-laptop-file fa-2x"></i>
                         <h2>Fully Responsive</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
                             odit aliquam excepturi libero.</p>
                     </div>
-                    <div class="col service-item">
+                    <div data-aos="fade-up" data-aos-duration="2500" class="col service-item">
                         <i class="fa-solid fa-camera-retro fa-2x"></i>
                         <h2>Retina Ready</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit delectus,
@@ -162,14 +167,13 @@ About section End
         <!-- -----------------
     Skill Section Here
 ------------------- -->
-        <div id="skill" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2"
-            tabindex="0">
+        <div id="skill" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
 
             <div class="container skill">
                 <h2 class="fw-bold fs-1 text-center mb-5 mt-5">Our Skill</h2>
                 <div class="row skill-items gap-5">
-                    <div class="col skill-item">
+                    <div data-aos="fade-up" class="col skill-item">
                         <h3 class="text-center fw-bold">Web Design</h3>
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id
                             voluptates expedita nesciunt. Id voluptates omnis corporis expedita, possimus recusandae.
@@ -180,7 +184,7 @@ About section End
                                 style="width: 85%">85%</div>
                         </div>
                     </div>
-                    <div class="col skill-item">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col skill-item">
                         <h3 class="text-center fw-bold">Web Development</h3>
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id
                             voluptates expedita nesciunt. Id voluptates omnis corporis expedita, possimus recusandae.
@@ -191,7 +195,7 @@ About section End
                                 style="width: 75%">75%</div>
                         </div>
                     </div>
-                    <div class="col skill-item">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="col skill-item">
                         <h3 class="text-center fw-bold">Branding</h3>
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id
                             voluptates expedita nesciunt. Id voluptates omnis corporis expedita, possimus recusandae.
@@ -204,7 +208,7 @@ About section End
                     </div>
                 </div>
                 <div class="row skill-items gap-5 mt-5">
-                    <div class="col skill-item">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col skill-item">
                         <h3 class="text-center fw-bold">Digital Marketing</h3>
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id
                             voluptates expedita nesciunt. Id voluptates omnis corporis expedita, possimus recusandae.
@@ -215,7 +219,7 @@ About section End
                                 style="width: 100%">100%</div>
                         </div>
                     </div>
-                    <div class="col skill-item">
+                    <div data-aos="fade-up" data-aos-duration="2500" class="col skill-item">
                         <h3 class="text-center fw-bold">Seo</h3>
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id
                             voluptates expedita nesciunt. Id voluptates omnis corporis expedita, possimus recusandae.
@@ -238,8 +242,8 @@ About section End
         <!-- -----------------
     portfolio Section Here
 ------------------- -->
-        <div id="portfolio" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        <div data-aos="fade-up" data-aos-duration="2000" id="portfolio" data-bs-spy="scroll"
+            data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
             class="scrollspy-example portfolio p-3 rounded-2" tabindex="0">
 
             <div class="main">
@@ -316,9 +320,8 @@ About section End
         <!-- -----------------
     Client Section Here
 ------------------- -->
-        <div id="client" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2"
-            tabindex="0">
+        <div id="client" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2" tabindex="0">
             <div class="container client">
                 <h2 class="fw-bold text-center fs-1 mb-5 mt-5 Testimonials">Testimonials</h2>
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -353,25 +356,25 @@ About section End
             <div class="counter-section">
                 <div class="container">
                     <div class=" row counter-items">
-                        <div class="col text-center">
+                        <div data-aos="flip-up" class="col text-center">
                             <i class="fa-solid fa-2x fa-people-group"></i>
                             <p class="counter fw-bold fs-1" id="number1">850</p>
                             <span></span>
                             <h4>Happy Customer</h4>
                         </div>
-                        <div class="col text-center">
+                        <div data-aos="flip-up" data-aos-duration="1000" class="col text-center">
                             <i class="fa-regular fa-2x fa-thumbs-up"></i>
                             <p class="counter fw-bold fs-1" id="number2">230</p>
                             <span></span>
                             <h4>Complete projects</h4>
                         </div>
-                        <div class="col text-center">
+                        <div data-aos="flip-up" data-aos-duration="1500" class="col text-center">
                             <i class="fa-solid fa-2x fa-bullhorn"></i>
                             <p class="counter fw-bold fs-1" id="number3">9870</p>
                             <span></span>
                             <h4>Line Of Code</h4>
                         </div>
-                        <div class="col text-center">
+                        <div data-aos="flip-up" data-aos-duration="2000" class="col text-center">
                             <i class="fa-solid fa-2x fa-cloud-arrow-down"></i>
                             <p class="counter fw-bold fs-1" id="number4">630</p>
                             <span></span>
@@ -391,28 +394,27 @@ About section End
         <!-- -----------------
     Contact Section Here
 ------------------- -->
-        <div id="contact" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-            class="scrollspy-example contact-form  p-3 rounded-2" tabindex="0">
+        <div id="contact" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example contact-form  p-3 rounded-2" tabindex="0">
 
             <div class="container contact">
                 <h2 class="fs-1 fw-bold text-center mb-5 mt-5 pb-5">Contact Us</h2>
                 <div class="row mb-5 contact-items">
-                    <div class="col">
+                    <div data-aos="zoom-in-up" class="col">
                         <div class="contact-item">
                             <i class="fa-solid fa-location-arrow"></i>
                             <h5>Address</h5>
                             <p>23352 Dhaka Bangladash</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-in-up" data-aos-duration="1000" class="col">
                         <div class="contact-item">
                             <i class="fa-regular fa-envelope-open"></i>
                             <h5>Email</h5>
                             <p>example@gmail.com</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="zoom-in-up" data-aos-duration="1500" class="col">
                         <div class="contact-item">
                             <i class="fa-solid fa-phone"></i>
                             <h5>Phone</h5>
@@ -438,20 +440,11 @@ About section End
     <footer>
         <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Scroll Animation JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
@@ -511,49 +504,7 @@ About section End
     </script>
 
 
-    <script>
-        var customer = setInterval(projectDone, 10)
-        var project = setInterval(projects, 10)
-        var code = setInterval(codeLine, 10)
-        var download = setInterval(fileDownload, 10)
-        let count1 = 1;
-        let count2 = 1;
-        let count3 = 1;
-        let count4 = 1;
 
-        function projectDone() {
-            count1++;
-            document.querySelector("#number1").innerHTML =
-                count1;
-            if (count1 == 850) {
-                clearInterval(customer)
-            }
-        }
-        function projects() {
-            count2++;
-            document.querySelector("#number2").innerHTML =
-                count2;
-            if (count2 == 230) {
-                clearInterval(project)
-            }
-        }
-        function codeLine() {
-            count3++;
-            document.querySelector("#number3").innerHTML =
-                count3;
-            if (count3 == 9870) {
-                clearInterval(code)
-            }
-        }
-        function fileDownload() {
-            count4++;
-            document.querySelector("#number4").innerHTML =
-                count4;
-            if (count4 == 630) {
-                clearInterval(download)
-            }
-        }
-    </script>
 </body>
 
 </html>

@@ -4,7 +4,6 @@
     max-width: 1000px;
     margin: auto;
     border: none;
-   
   }
   .portfolio{
     background-color: aliceblue;
@@ -60,17 +59,17 @@
   }
   
   .btn:hover {
-    background-color: #ddd;
+    background-color: rgba(0, 128, 0, 0.193) !important;
   }
   
   .btn.active {
-    background-color: #666;
-    color: white;
+    background-color: green !important;
+    color: white !important;
   }
   .main .column .content img{
     transition-duration: .4s;
   }
   .main .column :hover img{
     opacity: .8 !important;
-    scale: calc(200%) !important;
+    scale: calc(1.2) !important;
   }
